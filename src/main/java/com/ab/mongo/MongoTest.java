@@ -13,6 +13,7 @@ import com.mongodb.client.MongoDatabase;
  */
 public class MongoTest {
 	public static void main(String[] args) {
+		System.out.println("Hello");
 		MongoClient mc = new MongoClient("localhost", 27017);
 		System.out.println("Server Connection Successfully Done." + mc);
 
